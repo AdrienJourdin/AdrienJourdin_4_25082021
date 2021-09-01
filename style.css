@@ -90,17 +90,14 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
-}
+
 
 .b-parallax {
     background-attachment: fixed;
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgba(255, 255, 255);
 }
 
 .d-bloc button:hover {
@@ -231,7 +228,7 @@ a:hover {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-    color: rgba(0, 0, 0, .6);
+    color: rgba(0, 0, 0, 1);
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -647,12 +644,22 @@ h5,
 h6,
 p,
 label,
-.btn,
-a {
+.btn
+ {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
 }
+a{
+    font-family: "helvetica";
+    font-weight: 400;
+    color: white;
+}
+
+.lien-accueil, .lien-page2{
+    color:black;
+}
+
 
 .container {
     max-width: 1000px;
@@ -677,7 +684,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -702,6 +709,10 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+
+}
+.social .fa::before{
+    color:white;
 }
 
 h2 {
@@ -753,7 +764,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(56, 51, 36, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -771,20 +782,20 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color:#861818 ;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #861818;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: hsl(0, 62%, 32%)!important;
     color: #FFFFFF!important;
 }
 
