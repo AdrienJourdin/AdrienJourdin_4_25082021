@@ -705,6 +705,9 @@ p {
     font-size: 16px;
     font-weight: 700;
 }
+.cta-hero:hover{
+    text-decoration: underline;
+}
 
 .social {
     max-width: 400px;
@@ -1052,3 +1055,11 @@ h4 {
         text-align: center;
     }
 } 
+.lien-ext li a:hover{
+    text-decoration: underline;
+    color:white;
+}
+a.social:hover{
+    text-decoration: underline;
+    color:white;
+}
